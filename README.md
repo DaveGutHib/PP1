@@ -5,6 +5,14 @@
 ![alt text: Commodore 64 startup screen animated gif](https://github.com/DaveGutHib/PP1/blob/main/C64_startup_animiert.gif?raw=true)
 
 
+# Table of Contents
+1. [Intro](#intro)
+
+10. [References](#references)
+
+## Intro
+
+
 
 
 2022 marks the 40 year anniversary of the release of the Commodore 64, an incredibly important and influential micro-computer.
@@ -14,7 +22,8 @@ To celebrate this landmark occasion I wanted to make a website to celebrate it a
 
 
 
-####References
+## References
+
 
 [Animated C64 Start Screen GIF from Wikipedia ](https://en.wikipedia.org/wiki/Commodore_64#History)
 
