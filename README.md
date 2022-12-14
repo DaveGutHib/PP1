@@ -19,3 +19,8 @@ To celebrate this landmark occasion I wanted to make a website to celebrate it a
 [Animated C64 Start Screen GIF from Wikipedia ](https://en.wikipedia.org/wiki/Commodore_64#History)
 
 [C64 vectorised logo by Lolman4408 on DeviantArt ](https://www.deviantart.com/lolman4408/art/Commodore-64-logo-vectorized-694733898)
+
+[Commando Arcade music source ](https://www.youtube.com/watch?v=qX0rW4bKp3U)
+
+
+[Commando C64 Oscilloscope video source ](https://www.youtube.com/watch?v=bCp_sG-haP0)
