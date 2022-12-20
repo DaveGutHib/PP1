@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    margin: 0;
+    margin-left: 30px;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #00ffff;
@@ -41,8 +41,106 @@ div p{
     text-align: justify;
 }
 
+#hero-larger{
+    height: 600px;
+    width: 100%;
+    overflow:hidden;
+    position:relative;
+}
+
 #hero-image{
     height: 600px;
     width: 100%;
-    background: url("\assets\images\Commodore_Hero_Image.jpg")
+    background: url("/assets/images/Commodore_Hero_Image.jpg ") no-repeat center center;
+    animation-name: hero-zoom-in;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom-in{
+    from
+    {
+        transform: scale(1);
+    }
+    to
+    {
+    transform: scale(1.5);
+    }
+
+}
+
+#hero-text h2{
+    color:white;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    font-size: 120%;
+    letter-spacing: 6px;
+    padding-top: 25px;
+    padding-left: 10px;
+    width:200px;
+    height:120px;
+    bottom: 40px;
+    right: 140px;
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0.5);
+
+
+
+}
+
+#eye-catcher{
+display:flex;
+justify-content:space-between;
+align-items: flex-start;
+flex-direction: row;
+height:600px;
+
+}
+
+#eye-left{
+    padding-top: 30px;
+    width:33%;
+    float:left;
+    background-color: blue;
+}
+
+#eye-center{
+    width:33%;
+    margin: 0 auto;
+    background-color: green;
+    background: url("/assets/images/C64_Logo_Big_Vector.png") no-repeat center center;
+    
+}
+
+#eye-right{
+    padding-top: 30px;
+    width:33%;
+    float:right;
+    background-color: silver;
+}
+
+
+
+.eye-catcher-info-left{
+    width: 33%;
+    line-height:20px;
+    clear: both;
+    margin-bottom:50px;
+    float:right;
+}
+
+.eye-catcher-info-right{
+    width: 33%;
+    line-height:20px;
+    clear: both;
+    margin-bottom:50px;
+    float:left;
+}
+
+
+hr{
+    border-top:3px solid #00ffff;
+    width: 100%;
+    margin: 5px 0;
+
 }
