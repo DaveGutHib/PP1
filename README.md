@@ -19,6 +19,8 @@
 
 To celebrate this landmark occasion I wanted to make a website to celebrate it and it's uniquely powerful sound chip.
 
+C64 red  #ff0000 / rgb 255,0,0
+C64 blue #018bed /  rgb 1,139,237
 
 
 
