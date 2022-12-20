@@ -31,5 +31,8 @@ To celebrate this landmark occasion I wanted to make a website to celebrate it a
 
 [Commando Arcade music source ](https://www.youtube.com/watch?v=qX0rW4bKp3U)
 
-
 [Commando C64 Oscilloscope video source ](https://www.youtube.com/watch?v=bCp_sG-haP0)
+
+[How-to Geek Commodore article](https://www.howtogeek.com/820304/the-best-selling-pc-of-all-time-commodore-64-turns-40/)
+
+[Commodore in-game images](http://www.cbmitapages.it/c64/games/games.htm)

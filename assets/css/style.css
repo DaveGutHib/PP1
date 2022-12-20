@@ -23,3 +23,15 @@ nav ul {
     font-size: 250%;
 
 }
+.gallery{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gallery_text{
+    position: absolute;
+}
