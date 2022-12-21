@@ -97,7 +97,7 @@ p {
 
 .gallery-items p {
     margin: auto;
-    padding: auto;
+    padding: 0;
 }
 
 
@@ -251,10 +251,10 @@ footer {
 
 }
 
-.socials {
+/* .socials {
     text-align: row;
 
-}
+} */
 
 .socials li {
     display: inline;
