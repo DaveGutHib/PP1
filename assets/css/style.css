@@ -134,51 +134,6 @@ div p{
 
 }
 
-/* #eye-catcher{
-display:flex;
-justify-content:space-between;
-align-items: flex-start;
-flex-direction: row;
-height:600px;
-
-}
-
-#eye-left{
-    padding-top: 30px;
-    width:33%;
-    float:left;
-}
-
-#eye-center{
-    /* width:33%;
-    margin: 0 auto; 
-    background: url("/assets/images/C64_Logo_Big_Vector.png") no-repeat center center;
-    
-}
-
-#eye-right{
-    padding-top: 30px;
-    width:33%;
-    float:right;
-}
-
-
-
-.eye-catcher-info-left{
-    width: 33%;
-    line-height:20px;
-    clear: both;
-    margin-bottom:50px;
-    float:right;
-}
-
-.eye-catcher-info-right{
-    width: 33%;
-    line-height:20px;
-    clear: both;
-    margin-bottom:50px;
-    float:left;
-} */
 
 
 hr{
@@ -236,6 +191,11 @@ button:hover {
     color: black;
 
 }
+
+.text-center{
+    text-align: center;
+}
+
 footer {
     height: 200px;
 }
