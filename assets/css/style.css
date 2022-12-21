@@ -151,7 +151,7 @@ hr{
     border-radius: 5px;
     background-color: rgb(1, 139, 237);
     padding: 20px;
-    margin-bottom: 20px; /* margin added to push form position up footer */
+    margin-bottom: 20px;
     color: black;
 }
 
@@ -192,6 +192,28 @@ button:hover {
 
 }
 
+#contact-thank-you {
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: rgb(1, 139, 237);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+#contact-thank-you a {
+    color: lightgrey;
+}
+
+#contact-thank-you a:visited {
+    color: pink;
+}
+
+#contact-thank-you a:hover {
+    color: lightgreen;
+}
+
+
 .text-center{
     text-align: center;
     display: flex;
@@ -204,11 +226,15 @@ button:hover {
 }
 
 footer {
+    /* display: flex; */
     height: 200px;
+    /* justify-content: flex-end; */
+    
 }
 
 .socials {
     text-align: row;
+    
 }
 
 .socials li {
