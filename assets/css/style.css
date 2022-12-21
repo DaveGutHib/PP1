@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+header{
+    display: flex;
+}
+
+header img{
+    height: 80px;
+    width: auto;
+}
+
 body {
     margin-left: 30px;
     padding: 0;
@@ -15,6 +24,11 @@ p{
     overflow: hidden;
     border: 5px;
     border-color: rgb(255, 0, 0);
+    text-align: right;
+    display: flex; /*make responsive on different screen sizes*/
+    align-items: center;
+    width:100%;
+    justify-content: flex-end;
 }
 .nav-bar a{
     float: left;
@@ -22,6 +36,7 @@ p{
     padding:10px 10px;
     text-align: center;
     color: #23274d;
+    text-decoration: none;
 }
 
 .nav-bar a:hover{
@@ -97,7 +112,7 @@ div p{
 #hero-image{
     height: 600px;
     width: 100%;
-    background: url("/assets/images/Commodore_Hero_Image.jpg") no-repeat center center;
+    background: url("../images/Commodore_Hero_Image.jpg") no-repeat center center;
     animation-name: hero-zoom-in;
     animation-duration: 8s;
     animation-fill-mode: forwards;
