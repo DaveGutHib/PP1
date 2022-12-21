@@ -18,20 +18,81 @@
     Resources
     <p>Resources</p>
 
-<p>For an example lets listen to the original theme song to the arcade version of Commando, released by Capcom in arcades in 1985</p>
+    <p>When I first revisted Commodore 64 music as an adult, it was with embarrased hands-wringing thinking it was<br>
+    "Good for the time" and "Not actually comparable to famous Arcade music of the day like Street Fighter 2"</p>
 
-<audio src="\assets\media\Commando-(Arcade)-Main-Theme-Music.mp3" controls loop><span>Your browser doesn't support HTML5 audio:</span>
-    <a href="\assets\media\Commando-(Arcade)-Main-Theme-Music.mp3">Link to the audio</a></audio>
+    <p>But this was an inaccuracy on my part. The Commodore 64 launched in 1982, and Street Fighter 2 came out in 1991,<br>
+    that's nearly a full decade, or a console generation and a half. It was obviously never going to be fair to compare<br>
+    things of clearly different eras, but since the C64 is older than I am, I had just assumed that everything that<br>
+    existed when I was a child were contemporaries of each other. </p>
 
-<p>Then for comparison here is the Commodore 64 version of Commando by Rob Hubbard
+    <p> When comparing the C64 to arcade games of the early 80s, I was genuinely shocked to realise that while the<br>
+        graphics were obviously inferior, since the arcade hardware was more powerful, the C64 music absolutely blows<br>
+        the arcade music out of the water. How could this be possible?</p>
 
-<p>Even though it is considerably less powerful than an arcade machine, the C64's highly regarded sound chip allows for what feels
-like considerably more complexity and depth to the music.</p> 
+
+
+
+<p>For an example lets listen to the original theme song to the arcade version of Commando, released by Capcom in 1985</p>
+
+<figure>
+    <figcaption>Commando (Arcade):</figcaption>
+<audio src="\assets\media\Commando-(Arcade)-Main-Theme-Music.mp3" controls loop></audio>
+</figure>
+<p>Now lets listen to the music of the C64 port, released that same year</p>
+<figure>
+    <figcaption>Commando (C64):</figcaption>
+    <audio src="\assets\media\C64-Commando-Audio.mp3" controls loop></audio>
+</figure>
+
+
+<p>Even though the hardware is considerably less powerful than an arcade machine, it sounds better. How is this possible?</p>
+
+<h2>Let's talk about sound chips</h2>
+<p>Computer audio sound chips have a set number of audio channels available, or voices.<br>
+Similar to how a human voice cannot sing a melody and a harmony at the same time, computer<br>
+audio channels have a similar restriction.<br>
+The number of channels limits how many simultaneous noises a sound chip can produce.<br>
+Some computer audio chips took it a step further, and allowed each channel to only produce a single kind of noise.<br>
+There are four kinds of soundwaves that could be produced by hardware of the day:</p>
+
+<ul>
+    <li>Square: High pitched beeps for melodies</li>
+    <li>Triangle: Low pitched beeps for basslines</li>
+    <li>Sawtooth: Pulsing beeps with a click to approximate drums</li>
+    <li>Noise: Sound of audio static. Often used for lighter percussion instruments and ambient crowd noises.</li>
+</ul>
+
+<h3>Lets look at how one of the contemporaries of the day had it's sound channels set up.</h3>
+
+<figure>
+    <figcaption>Nintendo Entertainment System Sound Channels:</figcaption>
+    <img src="\assets\images\Sound_voices_NES.png" controls loop></img>
+</figure>
+
+<p>As you can see the first two channels are solely dedicated to the square waves, the third to triangle,<br>
+and the fourth to noise. These channels could produce these and only these sounds. If a composer wished to<br>
+compose a song using 3 or 4 square wave sounds, this was not possible. Also note there is no channel for<br>
+sawtooth so the NES could not produce this sound at all. <br>
+Though not strictly relevant to this topic, the fifth "PCM sample" channel on the NES was used for sampling,<br>
+or snippets of real world voices or music. But because this was incredibly storage space intensive on the small<br>
+size cartridges of the day, it was rarely used.</p>
+
+<h3>The C64's sound chip</h3>
+
+<p>Known as the Sound Interface Device, or SID, it allowed for what feels like considerably more complexity<br> 
+and depth to the music. As well as distinctive "synth" flavour to the sounds.</p>
+
+<figure>
+    <figcaption>Nintendo Entertainment System Sound Channels:</figcaption>
+    <img src="\assets\images\Sound_voices_NES.png" controls loop></img>
+</figure>
+
+
 
 <p>This music is visualised in an Oscilloscope so you can see each of the three different sound channels at work</p>
 
-  <video src="\assets\media\C64-Commando-Oscilloscope-3m-360p.mp4" type="video/mp4" controls>
-<p>Your browser doesn't support HTML5 video.</p><a href="\assets\media\C64-Commando-Oscilloscope-3m-360p.mp4">Link to the video.</a></video>
+  <video src="\assets\media\C64-Commando-Oscilloscope-3m-360p.mp4" type="video/mp4" controls></video>
 
 <p>Most of gaming history from the early 1980s are all centralised to one country: Japan
 Mario, Donkey Kong, Pac-Man, Galaxian and Space Invaders were all developed there and exported to the rest of the world.</p>
