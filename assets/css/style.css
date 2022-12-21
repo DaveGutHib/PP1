@@ -194,6 +194,13 @@ button:hover {
 
 .text-center{
     text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.text-center p{
+    text-align: inherit;
 }
 
 footer {
