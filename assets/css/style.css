@@ -11,14 +11,38 @@ p{
     font-size: medium;
 }
 
-nav ul {
+.nav-bar{
+    overflow: hidden;
+    border: 5px;
+    border-color: rgb(255, 0, 0);
+}
+.nav-bar a{
+    float: left;
+    font-size: 25px;
+    padding:10px 10px;
+    text-align: center;
+    color: #23274d;
+}
+
+.nav-bar a:hover{
+background-color:rgb(1, 139, 237);
+color:#00ffff;
+}
+
+
+.nav-bar li {
     list-style: none;
-    /* background-color:rgb(1, 139, 237); */
     background-color: #00ffff;
     text-align: center;
     color: rgb(255, 0, 0);
     padding: 0;
     margin: 0;
+    display:inline-block;
+}
+
+.nav-bar img{
+    height: 80px;
+    width: auto;
 }
 #main-logo{
     float:inline-start;
@@ -32,8 +56,30 @@ nav ul {
     /* flex-wrap:wrap; */
     /* justify-content:last baseline; */
     align-items: center;
+    max-width: 100%;
+    height: auto;
 
 }
+
+.gallery-items{
+    display:flex;
+    flex-direction:row;
+    width: 90%;
+}
+
+.gallery-items img{
+    width: 50%;
+    height: auto;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+
+.gallery-items p{
+    margin: auto;
+    padding: auto;
+}
+
 
 div p{
     /* position:relative; */
@@ -88,7 +134,7 @@ div p{
 
 }
 
-#eye-catcher{
+/* #eye-catcher{
 display:flex;
 justify-content:space-between;
 align-items: flex-start;
@@ -105,7 +151,7 @@ height:600px;
 
 #eye-center{
     /* width:33%;
-    margin: 0 auto; */
+    margin: 0 auto; 
     background: url("/assets/images/C64_Logo_Big_Vector.png") no-repeat center center;
     
 }
@@ -132,7 +178,7 @@ height:600px;
     clear: both;
     margin-bottom:50px;
     float:left;
-}
+} */
 
 
 hr{
@@ -140,4 +186,71 @@ hr{
     width: 100%;
     margin: 5px 0;
 
+}
+
+/* Contact form */
+
+/* styled to match footer and header colors */
+#contact-form {
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: rgb(1, 139, 237);
+    padding: 20px;
+    margin-bottom: 20px; /* margin added to push form position up footer */
+    color: black;
+}
+
+/* styling for form elements */
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+
+/* styled to give 3d effect on contact form submit button */
+#contact-form button[type=submit] {
+    background-color: white;
+    padding: 12px 20px;
+    border: solid;
+    border-style: groove;
+    border-radius: 4px;
+    cursor:default;
+}
+
+/* apply different color when hovered over with mouse */
+button:hover {
+    
+    color: green;
+}
+
+#contact-form h2 {
+    color: black;
+
+}
+footer {
+    height: 200px;
+}
+
+.socials {
+    text-align: row;
+}
+
+.socials li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 300%;
+    margin: 5%;
+    padding: 2%;
+    color: black;
 }
